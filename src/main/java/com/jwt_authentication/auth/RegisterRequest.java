@@ -1,4 +1,4 @@
-package com.jwt_authentication.security.auth;
+package com.jwt_authentication.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RegisterRequest {
-
     private String firstname;
     private String lastname;
     private String email;

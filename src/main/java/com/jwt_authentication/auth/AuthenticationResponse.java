@@ -1,4 +1,4 @@
-package com.jwt_authentication.security.auth;
+package com.jwt_authentication.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,6 +10,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationResponse {
-
     private String token;
 }
